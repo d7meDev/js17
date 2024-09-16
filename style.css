@@ -23,16 +23,55 @@ input{
     font-size: clamp(1rem,7vw,3rem);
     padding: 1vw 2vw;
     outline-color: rgb(0, 255, 149);
+    width: 80vw;
+    border: none;
+    background-color: azure;
+    
   
     
 }
 
 button{
-
+    color: rgb(122, 122, 122);
     font-size: clamp(1rem,7vw,4rem);
     padding: 1vw 8vw;
     border-radius: 10vw;
     cursor: pointer;
+    
+    
 
+}
+
+#search{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+#dropDownMenu{
+    font-size: clamp(1rem,7vw,3rem);
+    background-color: azure;
+    border: none;
+    width: 80vw;
+    
+    visibility: hidden;
+    opacity: 0.8;
+   
+    
+}
+
+#dropDownMenu h1{
+    font-size: clamp(1rem,7vw,2.5rem);
+    cursor: pointer;
+    color: rgb(70, 70, 70);
+    font-weight: 100;
+    width: 100%;
+    padding: 1vw 2vw;
+}
+
+#dropDownMenu h1:active{
+    background-color: rgb(193, 194, 194);
 }
 
