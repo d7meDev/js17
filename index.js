@@ -49,6 +49,9 @@ document.addEventListener('click', (event) => {
 
     else {
         menu.style.visibility = "hidden";
+        best3[0].textContent = "Pikachu";
+        best3[1].textContent = "Charizard";
+        best3[2].textContent = "Bulbasaur";
     }
 
 })
